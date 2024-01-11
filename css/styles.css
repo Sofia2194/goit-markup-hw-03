@@ -1,0 +1,225 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*!-------HEADER-------**/
+
+.header-logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-italic {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-menu-link {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-menu-link:hover {
+  color: #404bbf;
+}
+.header-menu-link:focus {
+  color: #404bbf;
+}
+.header-menu-link:active span {
+  color: #404bbf;
+  text-decoration: underline;
+}
+.header-address {
+  font-style: normal;
+}
+.header-address-link {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-address-link:hover {
+  color: #404bbf;
+}
+.header-address-link:focus {
+  color: #404bbf;
+}
+
+/*!--------------------**/
+
+/*!-------HERO-------**/
+
+.hero {
+  background-color: var(--NAVY-BLUE, #2e2f42);
+}
+.hero-title {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+  background-color: var(--IRIS, #4d5ae5);
+  color: var(--WHITE, #fff);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  background-color: var(--OCEAN, #404bbf);
+}
+.hero-btn:focus {
+  background-color: #404bbf;
+  color: #404bbf;
+}
+.hero-btn:active {
+  background-color: #404bbf;
+  color: #404bbf;
+}
+
+/*!--------------------**/
+
+/*!-------FEATURES-------**/
+
+.features-subtitle {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.features-item-text {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*!--------------------**/
+
+/*!-------TEAM-------**/
+
+.team {
+  background-color: #f4f4fd;
+}
+.team-list {
+  background-color: #ffffff;
+}
+.team-item {
+  background-color: #ffffff;
+}
+.team-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-subtitle {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-item-text {
+  color: var(--SLATE, #434455);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*!--------------------**/
+
+/*!-------PORTFOLIO-------**/
+
+.portfolio-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.portfolio-subtitle {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-imet-text {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*!--------------------**/
+
+/*!-------FOOTER-------**/
+
+.footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.footer-logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-logo-italic {
+  color: var(--CLOUD, #f4f4fd);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: var(--CLOUD, #f4f4fd);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*!--------------------**/
