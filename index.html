@@ -20,44 +20,42 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="header-navigation">
-        <a class="header-logo" href="./index.html"
-          >Web<span class="header-logo-italic">Studio</span></a
-        >
-        <ul class="header-menu-list">
-          <li class="header-menu-item">
-            <a class="header-menu-link" href="./index.html"
-              ><span>Studio</span></a
-            >
-          </li>
-          <li class="header-menu-item">
-            <a class="header-menu-link" href="">Portfolio</a>
-          </li>
-          <li class="header-menu-item">
-            <a class="header-menu-link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="header-address">
-        <ul class="header-address-list">
-          <li class="header-address-item">
-            <a class="header-address-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="header-address-item">
-            <a class="header-address-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
-    </header>
+    <div class="container">
+      <header class="header">
+        <nav>
+          <a class="header-logo" href="./index.html"
+            >Web<span class="header-logo-italic">Studio</span>
+          </a>
+          <ul class="header-menu">
+            <li class="header-menu-link">
+              <a href=""><span>Studio</span></a>
+            </li>
+            <li class="header-menu-link"><a href="">Portfolio</a></li>
+            <li class="header-menu-link"><a href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="header-address-menu">
+            <li class="header-address-link">
+              <a href="info@devstudio.com" target="_blank"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-address-link">
+              <a href="+11 (000) 111-11-11" target="_blank"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </header>
+    </div>
     <main class="main">
       <section class="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button class="hero-btn" type="button">Order Service</button>
+        <div class="container hero-container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button class="hero-btn" type="button">Order Service</button>
+        </div>
       </section>
       <section class="features">
         <h2 hidden="">Features</h2>
