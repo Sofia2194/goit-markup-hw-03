@@ -36,9 +36,16 @@ address {
 }
 
 .container {
-  width: 1440px;
-  background: #fff;
-  margin: 0 auto;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-paddings {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /*!-------HEADER-------**/
@@ -56,8 +63,6 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-left: 156px;
-  padding-right: 1169px;
 }
 .header-logo-italic {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -69,8 +74,6 @@ address {
   text-transform: uppercase;
 }
 .header-menu {
-  padding-left: 347px;
-  padding-right: 832px;
 }
 .header-menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -111,10 +114,9 @@ address {
 /*!-------HERO-------**/
 
 .hero {
-}
-.hero-container {
   background-color: var(--NAVY-BLUE, #2e2f42);
-  padding: 188px 472px 292px 472px;
+  width: 1440px;
+  height: 600px;
 }
 .hero-title {
   color: var(--WHITE, #fff);
@@ -238,6 +240,8 @@ address {
 
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
+  width: 1440px;
+  height: 312px;
 }
 .footer-logo {
   color: var(--IRIS, #4d5ae5);
