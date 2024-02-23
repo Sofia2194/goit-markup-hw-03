@@ -48,6 +48,10 @@ address {
   padding-bottom: 120px;
 }
 
+img {
+  display: block;
+}
+
 /*!-------HEADER-------**/
 
 .header {
@@ -63,6 +67,10 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
 }
 .header-logo-italic {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -74,6 +82,9 @@ address {
   text-transform: uppercase;
 }
 .header-menu {
+  display: inline-flex;
+  gap: 40px;
+  align-items: flex-start;
 }
 .header-menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -152,6 +163,10 @@ address {
 
 /*!-------FEATURES-------**/
 
+.features-list {
+  display: flex;
+  gap: 8px;
+}
 .features-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
@@ -175,6 +190,7 @@ address {
   background-color: #f4f4fd;
 }
 .team-list {
+  display: inline-flex;
   background-color: #ffffff;
 }
 .team-item {
@@ -210,6 +226,12 @@ address {
 
 /*!-------PORTFOLIO-------**/
 
+.portfolio-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -232,6 +254,11 @@ address {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.portfolio-imet-list {
+  display: flex;
+}
+.portfolio-item {
 }
 
 /*!--------------------**/
