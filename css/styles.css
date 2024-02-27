@@ -17,10 +17,11 @@ h6 {
 
 a {
   text-decoration: none;
-  color: currentColor;
+  color: inherit;
 }
 
-ul {
+ul,
+ol {
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
