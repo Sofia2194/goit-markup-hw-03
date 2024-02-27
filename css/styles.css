@@ -68,7 +68,9 @@ img {
   align-items: center;
   display: flex;
 }
-
+.header-menu-text {
+  padding: 24px 0;
+}
 .header-logo {
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
@@ -189,9 +191,19 @@ img {
 
 .features-list {
   display: flex;
-  gap: 8px;
+  gap: 24px;
 }
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .features-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
